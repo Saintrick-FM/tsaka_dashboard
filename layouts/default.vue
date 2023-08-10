@@ -31,7 +31,27 @@
             </template>
           </q-input>
         </div>
-        <q-item style="margin: 0 20px 0 auto; cursor: pointer">
+
+        <q-item style="margin-left: auto; cursor: pointer">
+          <q-btn
+            style="
+              border-radius: 10px;
+              text-transform: lowercase;
+              margin: 0 25px 0 auto;
+              color: #f0b13e;
+              width: 25px;
+              height: 35px;
+              background: #fffaf1;
+            "
+          >
+            s
+            <q-badge
+              floating
+              dense
+              style="background: #eb5757; width: 5px; height: 5px"
+              rounded
+            />
+          </q-btn>
           <q-item-section avatar>
             <q-avatar>
               <img :src="profileImage" />
